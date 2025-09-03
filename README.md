@@ -40,7 +40,7 @@ make clean
 nano ~/.bashrc
 -- tambahkan di baris terakhir
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/iot-bc-jn-01/go-ethereum/build/bin
+export PATH=$PATH:/home/user-name/go-ethereum/build/bin
 --
 source ~/.bashrc
 
