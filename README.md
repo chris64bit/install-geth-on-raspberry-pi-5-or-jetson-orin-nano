@@ -35,4 +35,15 @@ make all
 cd go-ethereum
 make clean
 ```
+## config so that geth can be called from anywhere
+```bash
+nano ~/.bashrc
+-- tambahkan di baris terakhir
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/iot-bc-jn-01/go-ethereum/build/bin
+--
+source ~/.bashrc
 
+--- perintah untuk mencari geth dimana jika tidak yakin lokasinya dimana
+find ~ -type f -name geth
+```
