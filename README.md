@@ -47,3 +47,6 @@ source ~/.bashrc
 --- command to find geth location if not sure where it is
 find ~ -type f -name geth
 ```
+## 👀 Want to learn more?
+
+Check my documentation on how to setup [Private ethereum clique](https://github.com/chris64bit/install-geth-on-raspberry-pi-5-or-jetson-orin-nano/blob/main/private-ethereum-clique.md)
